@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://f93e-116-234-204-42.ngrok-free.app/openapi.yaml",
+    "url": "http://localhost:3000/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "http://localhost:3000/logo.png",
