@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: Hello World
+  version: 1.0.0
+paths:
+  /hello:
+    get:
+      operationId: hello
+      summary: Returns a hello world message
+      responses:
+        '200':
+          description: A JSON object containing a hello world message
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HelloResponse'
+components:
+  schemas:
+    HelloResponse:
+      type: object
+      properties:
+        message:
+          type: string

@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Hello World Plugin",
+  "name_for_model": "hello_world",
+  "description_for_human": "A simple plugin that says hello to the world.",
+  "description_for_model": "A simple plugin that says hello to the world.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://f93e-116-234-204-42.ngrok-free.app/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3000/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://www.example.com/legal"
+}
